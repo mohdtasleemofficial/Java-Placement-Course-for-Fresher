@@ -1,0 +1,60 @@
+Simple Java Hello Program:
+
+class Abc 
+{
+    public static void main(String[] args)
+    {
+      System.out.println("Hello World");
+    } 
+}
+
+EXPLANATION OF EACH TERM IN ABOVE PROGRAM:
+class:
+class is a keyword.
+Java is an object oriented programming and you cannot run your code without a class in Java. So you need to put your code inside a class.
+In one java program, there can be only single public class.
+Syntax of class :
+access-modifier class 
+Class Name
+{
+//body 
+}
+If a class has no modifier (the default, also known as package-private), it is visible only within its own package (you will learn about them in a later episodes)
+
+Abc :
+Abc is an Identifier (user-defined class name) Class-name should follow the rules of an identifier.
+
+public :
+public is access modifier keyword.
+JVM can be installed anywhere i.e. C or D or any other drive and JVM is responsible to call main method which may be in any other drive, thus to call main method by JVM from anywhere, “main” method should be declared public.
+
+static :
+static is keyword.
+At the time of execution there is no object, thus by declaring main method as static, it becomes class level method (not object level method), so it can be called without object (JVM class main method). 
+Thus main method nowhere related to object.
+
+void :
+void is return type keyword.
+void means nothing or empty.
+main method has void return type as it does not return anything to JVM. If it returns then what will JVM do with the value, it will be of no use.
+
+main() :
+main is predefined method, which is configured inside JVM. JVM always start its execution from main method.
+
+String[] args :
+command-line arguments
+
+System :
+Predefined class present in “java. Lang” package
+
+out :
+out is a “static variable “of “Print Stream” class present in “System” class.
+Three static variables of Print Stream class are :
+out (for output) in (for input) err (for error)
+
+println() :
+println() is method of Print Stream class.
+Three different methods of Print Stream class to print on console are :
+print() 
+println() 
+printf()
