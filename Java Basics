@@ -1,0 +1,88 @@
+Java Foundation Level
+
+DATA TYPE: 
+1-Primitive data types: The primitive data types include Boolean, char, byte, short, int, long, float and double.
+2-Non-primitive data types: The non-primitive data types include Classes, Interfaces,
+and Arrays
+Variable in Java:
+Data types specify the different sizes and values that can be stored in the variable. There are
+two types of data types in Java:
+
+1-Primitive data types: 
+
+Boolean
+char
+byte
+short
+int
+long
+float
+double.
+
+2-Non-primitive data types: 
+
+Classes
+Interfaces
+Arrays
+ 
+A Variable is the name of memory Location that can store data. There are three Types of Variables
+1-Local Variable:
+
+Declaration:-Inside the method ,Constructor or Block
+Scope:-Inside the method ,Constructor or block not outside
+When Variable gets Allocated:-when method Constructor or block get executed Variable allocates memory, when get exist Variable Destroyed.
+Stored Memory:-Stack memory
+Default Values:-Does not have any default values. Values should be provided before use. Access Modifiers:-can not be used with Local Variables.
+
+2-Instance Variable:
+
+Declaration:- Inside the class but outside the method ,constructor or block.
+Scope:- Inside all the method Constructor or block within a class (but not inside the static method directly)
+When Variable gets Allocated:- when object is created Variable allocated when object gets deleted variable releases memory.
+Stored Memory:- Heap memory
+Default Values:- They have default value-int=0,Boolean=false, object=null.
+Access Modifiers:- Can be used.
+How to access:-if method is Simple=> it can be called directly. If method is static=> then first object is created and then call
+
+3-Static Variable:
+
+Declaration:- with static keyword in a class but outside method ,constructor or block. Scope:- Inside all the method Constructor or block within a class(same as instance variable) When Variable gets Allocated:-when be run a Program and .class file is loaded. Variable allocated and when .class file is unloaded then variable is deleted
+Stored Memory:-Non Heap memory or static memory
+
+Default Values:
+
+They have default value-int=0,Boolean=false, object=null.
+
+Access Modifiers:
+
+Can be used.
+How to access:
+Directly, by using class name, by using object reference name
+
+Operators in java
+ 
+Operators are the Special Symbol which perform any operation on one or more operands. There are many types of operators in Java which are given below:
+
+1. Unary Operator
+2. Arithmetic Operator
+3. Shift Operator
+4. Relational Operator
+5. Bitwise Operator
+6. Logical Operator
+7. Ternary Operator
+8. Assignment Operator
+
+Literal:
+The Value assigned to a variable is known as literal.
+Keywords:
+Keywords are the predefined words having any specific meaning. Control statement:
+A Java Program Normally Executes top to bottom. But if we want to control the order of Program Execution based on logic and values. we use the control Statement.
+There are three types: -
+1-Selection Statement or Conditional Statement:
+Example:- if , if else , if else if , Nested if, Switch
+
+2-Looping Statement or Iteration Statement:
+Example:- for , while ,do while
+
+3-Jump Statement:
+Example:- Break, Continue, return
