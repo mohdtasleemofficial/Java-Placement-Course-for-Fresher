@@ -1,0 +1,19 @@
+Features of Java
+
+1. Platform Independent:
+The concept of Write-once-run-anywhere (known as the Platform independent) is one of the important key feature of java language that makes java as the most powerful language.
+The programs written on one platform can run on any platform provided the platform must have its own JVM.
+2. Portable:
+The Feature Write-once-run-anywhere makes the java language portable. Java also have the standard data size irrespective of operating system or the processor.
+These features make the java as a portable language.
+3. Secure:
+This is important feature of java. Java is very much secure as compared to any other language.
+Some of the points why java is secured is JVM, Security Manager, No Pointers, Access Modifiers, Exception Handling, Own Memory Management.
+4. Object Oriented:
+Basic concepts of OOP's are OBJECT, CLASS, INHERITANCE, PLOYMORPHISM, ABSTRACTION, INCAPSULATION, DYNAMIC BINDING. Java follows all these basic concepts of OOP's.
+5. Robust:
+Dictionary meaning of Robust is Powerful or Strong. The feature of java like Memory Allocation & Automatic Garbage Collection makes java Robust.
+6. Multi-Threading:
+Java is a Multithreaded programming language. Multithreading means a single program having different threads executing independently at the same time.
+7. Simple, As Some features of C & C++ Eliminated:
+Some features of C & C++ like Memory Pointer, Pre-processor, No Array Index Limit Checking, Operator Overloading, No Automatic Garbage Collection is removed from Java. This makes java more simple & less confusing.
